@@ -1,0 +1,48 @@
+c:\users\张冬军\documents\visual studio 2010\Projects\大学生体质测评系统\大学生体质测评系统\bin\Debug\大学生体质测评系统.exe
+c:\users\张冬军\documents\visual studio 2010\Projects\大学生体质测评系统\大学生体质测评系统\bin\Debug\大学生体质测评系统.pdb
+c:\users\张冬军\documents\visual studio 2010\Projects\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.Properties.Resources.resources
+c:\users\张冬军\documents\visual studio 2010\Projects\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.csproj.GenerateResource.Cache
+c:\users\张冬军\documents\visual studio 2010\Projects\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.exe
+c:\users\张冬军\documents\visual studio 2010\Projects\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.pdb
+c:\users\张冬军\documents\visual studio 2010\Projects\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.Form2.resources
+c:\users\张冬军\documents\visual studio 2010\Projects\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.Form1.resources
+c:\users\张冬军\documents\visual studio 2010\Projects\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.Form3.resources
+C:\Users\张冬军\documents\visual studio 2010\Projects\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.Form4.resources
+H:\01大学生体质检测\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.exe
+H:\01大学生体质检测\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.pdb
+C:\Users\29728\Desktop\大学生体质监测\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.exe
+C:\Users\29728\Desktop\大学生体质监测\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.pdb
+C:\Users\29728\Desktop\大学生体质监测\大学生体质测评系统\大学生体质测评系统\bin\Debug\大学生体质测评系统.exe.config
+C:\Users\29728\Desktop\大学生体质监测\大学生体质测评系统\大学生体质测评系统\bin\Debug\大学生体质测评系统.exe
+C:\Users\29728\Desktop\大学生体质监测\大学生体质测评系统\大学生体质测评系统\bin\Debug\大学生体质测评系统.pdb
+C:\Users\29728\Desktop\大学生体质监测\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.csprojResolveAssemblyReference.cache
+C:\Users\29728\Desktop\大学生体质监测\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.Properties.Resources.resources
+C:\Users\29728\Desktop\大学生体质监测\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.Form3.resources
+C:\Users\29728\Desktop\大学生体质监测\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.csproj.GenerateResource.Cache
+C:\Users\29728\Desktop\大学生体质监测\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.Form1_essential_information.resources
+C:\Users\29728\Desktop\大学生体质监测\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.Form2_freshman_girl.resources
+C:\Users\29728\Desktop\大学生体质监测\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.HomePage.resources
+C:\Users\张冬军\Desktop\大学生体质测评系统注销\大学生体质测评系统注销\大学生体质测评系统\大学生体质测评系统\bin\Debug\大学生体质测评系统.exe
+C:\Users\张冬军\Desktop\大学生体质测评系统注销\大学生体质测评系统注销\大学生体质测评系统\大学生体质测评系统\bin\Debug\大学生体质测评系统.exe.config
+C:\Users\张冬军\Desktop\大学生体质测评系统注销\大学生体质测评系统注销\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.Form1_essential_information.resources
+C:\Users\张冬军\Desktop\大学生体质测评系统注销\大学生体质测评系统注销\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.Form2_freshman_girl.resources
+C:\Users\张冬军\Desktop\大学生体质测评系统注销\大学生体质测评系统注销\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.HomePage.resources
+C:\Users\张冬军\Desktop\大学生体质测评系统注销\大学生体质测评系统注销\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.Properties.Resources.resources
+C:\Users\张冬军\Desktop\大学生体质测评系统注销\大学生体质测评系统注销\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.Form3.resources
+C:\Users\张冬军\Desktop\大学生体质测评系统注销\大学生体质测评系统注销\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.csproj.GenerateResource.Cache
+C:\Users\张冬军\Desktop\大学生体质测评系统注销\大学生体质测评系统注销\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.exe
+C:\Users\张冬军\Desktop\大学生体质测评系统注销\大学生体质测评系统注销\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.pdb
+C:\Users\张冬军\Desktop\大学生体质测评系统注销\大学生体质测评系统注销\大学生体质测评系统\大学生体质测评系统\bin\Debug\大学生体质测评系统.pdb
+C:\Users\张冬军\Desktop\大学生体质测评系统注销\大学生体质测评系统注销\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\大学生体质测评系统(2)\大学生体质测评系统\大学生体质测评系统\bin\Debug\大学生体质测评系统.exe
+C:\Users\DELL\Desktop\大学生体质测评系统(2)\大学生体质测评系统\大学生体质测评系统\bin\Debug\大学生体质测评系统.exe.config
+C:\Users\DELL\Desktop\大学生体质测评系统(2)\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\大学生体质测评系统(2)\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.Form1_essential_information.resources
+C:\Users\DELL\Desktop\大学生体质测评系统(2)\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.Form2_freshman_girl.resources
+C:\Users\DELL\Desktop\大学生体质测评系统(2)\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.HomePage.resources
+C:\Users\DELL\Desktop\大学生体质测评系统(2)\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.Properties.Resources.resources
+C:\Users\DELL\Desktop\大学生体质测评系统(2)\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.Form3.resources
+C:\Users\DELL\Desktop\大学生体质测评系统(2)\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.csproj.GenerateResource.Cache
+C:\Users\DELL\Desktop\大学生体质测评系统(2)\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.exe
+C:\Users\DELL\Desktop\大学生体质测评系统(2)\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.pdb
+C:\Users\DELL\Desktop\大学生体质测评系统(2)\大学生体质测评系统\大学生体质测评系统\bin\Debug\大学生体质测评系统.pdb
