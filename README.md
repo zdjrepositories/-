@@ -8,8 +8,8 @@
  
 
 
-![alt  首页图片](image/1.PNG#pic_center "首页")
+![alt  首页图片](./image/1.PNG#pic_center "首页")
 
-![alt 信息填充页](image/2.PNG#pic_center "信息填充页")
+![alt 信息填充页](./image/2.PNG#pic_center "信息填充页")
 
-![alt 成绩页](image/3.PNG#pic_center "成绩页")
+![alt 成绩页](./image/3.PNG#pic_center "成绩页")

@@ -594,8 +594,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label_name);
             this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MinimizeBox = false;

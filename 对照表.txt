@@ -1,0 +1,21 @@
+首页 home page
+基本信息 essential information
+年级 grade
+大一 freshman
+大二 sophomore
+大三 junior
+大四 senior
+确定 confirm
+性别 gender
+学号 sno
+身高 height
+体重 weight
+成绩 achievement
+肺活量 vital_capacity
+立定跳远 standing_long_jump
+立体前屈 three_dimensional_flexion
+仰卧起坐 	
+引体向上 pull_up
+评价 evaluate
+耐力跑 endurance_run
+评测结果 evaluation_results
