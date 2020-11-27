@@ -46,3 +46,15 @@ C:\Users\DELL\Desktop\大学生体质测评系统(2)\大学生体质测评系统
 C:\Users\DELL\Desktop\大学生体质测评系统(2)\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.exe
 C:\Users\DELL\Desktop\大学生体质测评系统(2)\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.pdb
 C:\Users\DELL\Desktop\大学生体质测评系统(2)\大学生体质测评系统\大学生体质测评系统\bin\Debug\大学生体质测评系统.pdb
+C:\Users\DELL\Desktop\陇桥老师\南萍老师\大学生体质测评系统\大学生体质测评系统\bin\Debug\大学生体质测评系统.exe
+C:\Users\DELL\Desktop\陇桥老师\南萍老师\大学生体质测评系统\大学生体质测评系统\bin\Debug\大学生体质测评系统.exe.config
+C:\Users\DELL\Desktop\陇桥老师\南萍老师\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\陇桥老师\南萍老师\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.Form1_essential_information.resources
+C:\Users\DELL\Desktop\陇桥老师\南萍老师\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.Form2_freshman_girl.resources
+C:\Users\DELL\Desktop\陇桥老师\南萍老师\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.HomePage.resources
+C:\Users\DELL\Desktop\陇桥老师\南萍老师\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.Properties.Resources.resources
+C:\Users\DELL\Desktop\陇桥老师\南萍老师\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.Form3.resources
+C:\Users\DELL\Desktop\陇桥老师\南萍老师\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.csproj.GenerateResource.Cache
+C:\Users\DELL\Desktop\陇桥老师\南萍老师\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.exe
+C:\Users\DELL\Desktop\陇桥老师\南萍老师\大学生体质测评系统\大学生体质测评系统\obj\x86\Debug\大学生体质测评系统.pdb
+C:\Users\DELL\Desktop\陇桥老师\南萍老师\大学生体质测评系统\大学生体质测评系统\bin\Debug\大学生体质测评系统.pdb

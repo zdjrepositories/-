@@ -90,7 +90,7 @@
             // 
             this.textBox_Sno.Font = new System.Drawing.Font("等线", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_Sno.Location = new System.Drawing.Point(125, 251);
-            this.textBox_Sno.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox_Sno.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_Sno.Name = "textBox_Sno";
             this.textBox_Sno.Size = new System.Drawing.Size(153, 24);
             this.textBox_Sno.TabIndex = 4;
@@ -114,7 +114,7 @@
             this.radioButton_boy.Checked = true;
             this.radioButton_boy.Font = new System.Drawing.Font("等线", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.radioButton_boy.Location = new System.Drawing.Point(22, 9);
-            this.radioButton_boy.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton_boy.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton_boy.Name = "radioButton_boy";
             this.radioButton_boy.Size = new System.Drawing.Size(42, 21);
             this.radioButton_boy.TabIndex = 2;
@@ -128,7 +128,7 @@
             this.radioButton_girl.AutoSize = true;
             this.radioButton_girl.Font = new System.Drawing.Font("等线", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.radioButton_girl.Location = new System.Drawing.Point(104, 10);
-            this.radioButton_girl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton_girl.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton_girl.Name = "radioButton_girl";
             this.radioButton_girl.Size = new System.Drawing.Size(42, 21);
             this.radioButton_girl.TabIndex = 3;
@@ -142,7 +142,7 @@
             this.radioButton_freshman.Checked = true;
             this.radioButton_freshman.Font = new System.Drawing.Font("等线", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.radioButton_freshman.Location = new System.Drawing.Point(14, 2);
-            this.radioButton_freshman.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton_freshman.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton_freshman.Name = "radioButton_freshman";
             this.radioButton_freshman.Size = new System.Drawing.Size(58, 21);
             this.radioButton_freshman.TabIndex = 4;
@@ -156,7 +156,7 @@
             this.radioButton_sophomore.AutoSize = true;
             this.radioButton_sophomore.Font = new System.Drawing.Font("等线", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.radioButton_sophomore.Location = new System.Drawing.Point(104, 0);
-            this.radioButton_sophomore.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton_sophomore.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton_sophomore.Name = "radioButton_sophomore";
             this.radioButton_sophomore.Size = new System.Drawing.Size(58, 21);
             this.radioButton_sophomore.TabIndex = 5;
@@ -169,7 +169,7 @@
             this.radioButton_junior.AutoSize = true;
             this.radioButton_junior.Font = new System.Drawing.Font("等线", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.radioButton_junior.Location = new System.Drawing.Point(14, 46);
-            this.radioButton_junior.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton_junior.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton_junior.Name = "radioButton_junior";
             this.radioButton_junior.Size = new System.Drawing.Size(58, 21);
             this.radioButton_junior.TabIndex = 6;
@@ -182,7 +182,7 @@
             this.radioButton_senior.AutoSize = true;
             this.radioButton_senior.Font = new System.Drawing.Font("等线", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.radioButton_senior.Location = new System.Drawing.Point(104, 46);
-            this.radioButton_senior.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton_senior.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton_senior.Name = "radioButton_senior";
             this.radioButton_senior.Size = new System.Drawing.Size(58, 21);
             this.radioButton_senior.TabIndex = 7;
@@ -205,11 +205,11 @@
             // 
             // button_confirm
             // 
-            this.button_confirm.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.button_confirm.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.button_confirm.Font = new System.Drawing.Font("楷体", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button_confirm.ForeColor = System.Drawing.Color.Black;
             this.button_confirm.Location = new System.Drawing.Point(125, 303);
-            this.button_confirm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_confirm.Margin = new System.Windows.Forms.Padding(2);
             this.button_confirm.Name = "button_confirm";
             this.button_confirm.Size = new System.Drawing.Size(144, 46);
             this.button_confirm.TabIndex = 5;
@@ -225,7 +225,7 @@
             this.panel_grade.Controls.Add(this.radioButton_junior);
             this.panel_grade.Controls.Add(this.radioButton_senior);
             this.panel_grade.Location = new System.Drawing.Point(119, 166);
-            this.panel_grade.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel_grade.Margin = new System.Windows.Forms.Padding(2);
             this.panel_grade.Name = "panel_grade";
             this.panel_grade.Size = new System.Drawing.Size(158, 68);
             this.panel_grade.TabIndex = 3;
@@ -237,7 +237,7 @@
             this.panel2.Controls.Add(this.radioButton_boy);
             this.panel2.Controls.Add(this.radioButton_girl);
             this.panel2.Location = new System.Drawing.Point(119, 122);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(158, 30);
             this.panel2.TabIndex = 2;
@@ -247,7 +247,7 @@
             // 
             this.textBox_name.Font = new System.Drawing.Font("等线", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_name.Location = new System.Drawing.Point(125, 84);
-            this.textBox_name.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox_name.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_name.Name = "textBox_name";
             this.textBox_name.Size = new System.Drawing.Size(153, 24);
             this.textBox_name.TabIndex = 1;
@@ -271,7 +271,7 @@
             this.Controls.Add(this.panel_grade);
             this.Controls.Add(this.panel2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "Form1_essential_information";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -28,6 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.StripLine stripLine1 = new System.Windows.Forms.DataVisualization.Charting.StripLine();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.label1 = new System.Windows.Forms.Label();
             this.label_name = new System.Windows.Forms.Label();
@@ -68,6 +72,8 @@
             this.button_back = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -75,7 +81,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("楷体", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(204, 218);
+            this.label1.Location = new System.Drawing.Point(466, 150);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(85, 24);
@@ -87,7 +93,7 @@
             this.label_name.AutoSize = true;
             this.label_name.BackColor = System.Drawing.Color.Transparent;
             this.label_name.Font = new System.Drawing.Font("楷体", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_name.Location = new System.Drawing.Point(275, 218);
+            this.label_name.Location = new System.Drawing.Point(537, 150);
             this.label_name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_name.Name = "label_name";
             this.label_name.Size = new System.Drawing.Size(60, 24);
@@ -99,7 +105,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("楷体", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(204, 174);
+            this.label3.Location = new System.Drawing.Point(31, 150);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(85, 24);
@@ -111,7 +117,7 @@
             this.label_sno.AutoSize = true;
             this.label_sno.BackColor = System.Drawing.Color.Transparent;
             this.label_sno.Font = new System.Drawing.Font("楷体", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_sno.Location = new System.Drawing.Point(275, 174);
+            this.label_sno.Location = new System.Drawing.Point(102, 150);
             this.label_sno.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_sno.Name = "label_sno";
             this.label_sno.Size = new System.Drawing.Size(153, 24);
@@ -123,7 +129,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("楷体", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.Location = new System.Drawing.Point(482, 218);
+            this.label5.Location = new System.Drawing.Point(744, 150);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(85, 24);
@@ -135,7 +141,7 @@
             this.label_grade.AutoSize = true;
             this.label_grade.BackColor = System.Drawing.Color.Transparent;
             this.label_grade.Font = new System.Drawing.Font("楷体", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_grade.Location = new System.Drawing.Point(550, 218);
+            this.label_grade.Location = new System.Drawing.Point(812, 150);
             this.label_grade.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_grade.Name = "label_grade";
             this.label_grade.Size = new System.Drawing.Size(60, 24);
@@ -147,7 +153,7 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("楷体", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label7.Location = new System.Drawing.Point(482, 174);
+            this.label7.Location = new System.Drawing.Point(309, 150);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(85, 24);
@@ -159,7 +165,7 @@
             this.label_gender.AutoSize = true;
             this.label_gender.BackColor = System.Drawing.Color.Transparent;
             this.label_gender.Font = new System.Drawing.Font("楷体", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_gender.Location = new System.Drawing.Point(550, 174);
+            this.label_gender.Location = new System.Drawing.Point(377, 150);
             this.label_gender.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_gender.Name = "label_gender";
             this.label_gender.Size = new System.Drawing.Size(35, 24);
@@ -170,11 +176,11 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("楷体", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label9.Location = new System.Drawing.Point(173, 296);
+            this.label9.Font = new System.Drawing.Font("等线", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label9.Location = new System.Drawing.Point(64, 273);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(102, 22);
+            this.label9.Size = new System.Drawing.Size(102, 24);
             this.label9.TabIndex = 8;
             this.label9.Text = "测试项目";
             // 
@@ -182,11 +188,11 @@
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("楷体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label11.Location = new System.Drawing.Point(580, 298);
+            this.label11.Font = new System.Drawing.Font("等线", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label11.Location = new System.Drawing.Point(406, 274);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(93, 20);
+            this.label11.Size = new System.Drawing.Size(90, 21);
             this.label11.TabIndex = 10;
             this.label11.Text = "评价等级";
             this.label11.Click += new System.EventHandler(this.label11_Click);
@@ -195,11 +201,11 @@
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("楷体", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label12.Location = new System.Drawing.Point(173, 335);
+            this.label12.Font = new System.Drawing.Font("等线", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label12.Location = new System.Drawing.Point(64, 312);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(102, 22);
+            this.label12.Size = new System.Drawing.Size(102, 24);
             this.label12.TabIndex = 11;
             this.label12.Text = "身高体重";
             this.label12.Click += new System.EventHandler(this.label12_Click);
@@ -208,11 +214,11 @@
             // 
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Font = new System.Drawing.Font("楷体", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label14.Location = new System.Drawing.Point(188, 415);
+            this.label14.Font = new System.Drawing.Font("等线", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label14.Location = new System.Drawing.Point(79, 392);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(79, 22);
+            this.label14.Size = new System.Drawing.Size(79, 24);
             this.label14.TabIndex = 13;
             this.label14.Text = "肺活量";
             // 
@@ -220,11 +226,11 @@
             // 
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.Font = new System.Drawing.Font("楷体", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label15.Location = new System.Drawing.Point(211, 375);
+            this.label15.Font = new System.Drawing.Font("等线", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label15.Location = new System.Drawing.Point(102, 352);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(46, 22);
+            this.label15.Size = new System.Drawing.Size(53, 24);
             this.label15.TabIndex = 14;
             this.label15.Text = "50m";
             // 
@@ -232,11 +238,11 @@
             // 
             this.label_endurance_run.AutoSize = true;
             this.label_endurance_run.BackColor = System.Drawing.Color.Transparent;
-            this.label_endurance_run.Font = new System.Drawing.Font("楷体", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_endurance_run.Location = new System.Drawing.Point(196, 495);
+            this.label_endurance_run.Font = new System.Drawing.Font("等线", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_endurance_run.Location = new System.Drawing.Point(87, 472);
             this.label_endurance_run.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_endurance_run.Name = "label_endurance_run";
-            this.label_endurance_run.Size = new System.Drawing.Size(70, 22);
+            this.label_endurance_run.Size = new System.Drawing.Size(77, 24);
             this.label_endurance_run.TabIndex = 15;
             this.label_endurance_run.Text = "1000m";
             // 
@@ -244,11 +250,11 @@
             // 
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Font = new System.Drawing.Font("楷体", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label17.Location = new System.Drawing.Point(162, 533);
+            this.label17.Font = new System.Drawing.Font("等线", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label17.Location = new System.Drawing.Point(53, 510);
             this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(125, 22);
+            this.label17.Size = new System.Drawing.Size(125, 24);
             this.label17.TabIndex = 16;
             this.label17.Text = "坐位体前屈";
             // 
@@ -256,11 +262,11 @@
             // 
             this.label_abdominal_curl.AutoSize = true;
             this.label_abdominal_curl.BackColor = System.Drawing.Color.Transparent;
-            this.label_abdominal_curl.Font = new System.Drawing.Font("楷体", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_abdominal_curl.Location = new System.Drawing.Point(173, 571);
+            this.label_abdominal_curl.Font = new System.Drawing.Font("等线", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_abdominal_curl.Location = new System.Drawing.Point(64, 548);
             this.label_abdominal_curl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_abdominal_curl.Name = "label_abdominal_curl";
-            this.label_abdominal_curl.Size = new System.Drawing.Size(102, 22);
+            this.label_abdominal_curl.Size = new System.Drawing.Size(102, 24);
             this.label_abdominal_curl.TabIndex = 17;
             this.label_abdominal_curl.Text = "引体向上";
             // 
@@ -268,11 +274,11 @@
             // 
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.Color.Transparent;
-            this.label19.Font = new System.Drawing.Font("楷体", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label19.Location = new System.Drawing.Point(173, 460);
+            this.label19.Font = new System.Drawing.Font("等线", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label19.Location = new System.Drawing.Point(64, 437);
             this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(102, 22);
+            this.label19.Size = new System.Drawing.Size(102, 24);
             this.label19.TabIndex = 18;
             this.label19.Text = "立定跳远";
             // 
@@ -280,11 +286,11 @@
             // 
             this.label_evaluate_bmi.AutoSize = true;
             this.label_evaluate_bmi.BackColor = System.Drawing.Color.Transparent;
-            this.label_evaluate_bmi.Font = new System.Drawing.Font("楷体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_evaluate_bmi.Location = new System.Drawing.Point(594, 339);
+            this.label_evaluate_bmi.Font = new System.Drawing.Font("等线", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_evaluate_bmi.Location = new System.Drawing.Point(420, 315);
             this.label_evaluate_bmi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_evaluate_bmi.Name = "label_evaluate_bmi";
-            this.label_evaluate_bmi.Size = new System.Drawing.Size(51, 20);
+            this.label_evaluate_bmi.Size = new System.Drawing.Size(50, 21);
             this.label_evaluate_bmi.TabIndex = 29;
             this.label_evaluate_bmi.Text = "正常";
             this.label_evaluate_bmi.Click += new System.EventHandler(this.label21_Click);
@@ -293,11 +299,11 @@
             // 
             this.label_evaluate_50m.AutoSize = true;
             this.label_evaluate_50m.BackColor = System.Drawing.Color.Transparent;
-            this.label_evaluate_50m.Font = new System.Drawing.Font("楷体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_evaluate_50m.Location = new System.Drawing.Point(594, 379);
+            this.label_evaluate_50m.Font = new System.Drawing.Font("等线", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_evaluate_50m.Location = new System.Drawing.Point(420, 355);
             this.label_evaluate_50m.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_evaluate_50m.Name = "label_evaluate_50m";
-            this.label_evaluate_50m.Size = new System.Drawing.Size(51, 20);
+            this.label_evaluate_50m.Size = new System.Drawing.Size(50, 21);
             this.label_evaluate_50m.TabIndex = 30;
             this.label_evaluate_50m.Text = "及格";
             // 
@@ -305,11 +311,11 @@
             // 
             this.label_evaluate_vital_capacity.AutoSize = true;
             this.label_evaluate_vital_capacity.BackColor = System.Drawing.Color.Transparent;
-            this.label_evaluate_vital_capacity.Font = new System.Drawing.Font("楷体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_evaluate_vital_capacity.Location = new System.Drawing.Point(594, 418);
+            this.label_evaluate_vital_capacity.Font = new System.Drawing.Font("等线", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_evaluate_vital_capacity.Location = new System.Drawing.Point(420, 394);
             this.label_evaluate_vital_capacity.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_evaluate_vital_capacity.Name = "label_evaluate_vital_capacity";
-            this.label_evaluate_vital_capacity.Size = new System.Drawing.Size(51, 20);
+            this.label_evaluate_vital_capacity.Size = new System.Drawing.Size(50, 21);
             this.label_evaluate_vital_capacity.TabIndex = 31;
             this.label_evaluate_vital_capacity.Text = "及格";
             // 
@@ -317,11 +323,11 @@
             // 
             this.label_evaluate_standing_long_jump.AutoSize = true;
             this.label_evaluate_standing_long_jump.BackColor = System.Drawing.Color.Transparent;
-            this.label_evaluate_standing_long_jump.Font = new System.Drawing.Font("楷体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_evaluate_standing_long_jump.Location = new System.Drawing.Point(594, 459);
+            this.label_evaluate_standing_long_jump.Font = new System.Drawing.Font("等线", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_evaluate_standing_long_jump.Location = new System.Drawing.Point(420, 435);
             this.label_evaluate_standing_long_jump.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_evaluate_standing_long_jump.Name = "label_evaluate_standing_long_jump";
-            this.label_evaluate_standing_long_jump.Size = new System.Drawing.Size(51, 20);
+            this.label_evaluate_standing_long_jump.Size = new System.Drawing.Size(50, 21);
             this.label_evaluate_standing_long_jump.TabIndex = 32;
             this.label_evaluate_standing_long_jump.Text = "良好";
             // 
@@ -329,11 +335,11 @@
             // 
             this.label_evaluate_endurance_run.AutoSize = true;
             this.label_evaluate_endurance_run.BackColor = System.Drawing.Color.Transparent;
-            this.label_evaluate_endurance_run.Font = new System.Drawing.Font("楷体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_evaluate_endurance_run.Location = new System.Drawing.Point(594, 497);
+            this.label_evaluate_endurance_run.Font = new System.Drawing.Font("等线", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_evaluate_endurance_run.Location = new System.Drawing.Point(420, 473);
             this.label_evaluate_endurance_run.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_evaluate_endurance_run.Name = "label_evaluate_endurance_run";
-            this.label_evaluate_endurance_run.Size = new System.Drawing.Size(51, 20);
+            this.label_evaluate_endurance_run.Size = new System.Drawing.Size(50, 21);
             this.label_evaluate_endurance_run.TabIndex = 33;
             this.label_evaluate_endurance_run.Text = "及格";
             // 
@@ -341,11 +347,11 @@
             // 
             this.label_evaluate_three_dimensional_flexion.AutoSize = true;
             this.label_evaluate_three_dimensional_flexion.BackColor = System.Drawing.Color.Transparent;
-            this.label_evaluate_three_dimensional_flexion.Font = new System.Drawing.Font("楷体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_evaluate_three_dimensional_flexion.Location = new System.Drawing.Point(594, 536);
+            this.label_evaluate_three_dimensional_flexion.Font = new System.Drawing.Font("等线", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_evaluate_three_dimensional_flexion.Location = new System.Drawing.Point(420, 512);
             this.label_evaluate_three_dimensional_flexion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_evaluate_three_dimensional_flexion.Name = "label_evaluate_three_dimensional_flexion";
-            this.label_evaluate_three_dimensional_flexion.Size = new System.Drawing.Size(51, 20);
+            this.label_evaluate_three_dimensional_flexion.Size = new System.Drawing.Size(50, 21);
             this.label_evaluate_three_dimensional_flexion.TabIndex = 34;
             this.label_evaluate_three_dimensional_flexion.Text = "优秀";
             // 
@@ -353,11 +359,11 @@
             // 
             this.label_evaluate_abdominal_curl.AutoSize = true;
             this.label_evaluate_abdominal_curl.BackColor = System.Drawing.Color.Transparent;
-            this.label_evaluate_abdominal_curl.Font = new System.Drawing.Font("楷体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_evaluate_abdominal_curl.Location = new System.Drawing.Point(594, 575);
+            this.label_evaluate_abdominal_curl.Font = new System.Drawing.Font("等线", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_evaluate_abdominal_curl.Location = new System.Drawing.Point(420, 551);
             this.label_evaluate_abdominal_curl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_evaluate_abdominal_curl.Name = "label_evaluate_abdominal_curl";
-            this.label_evaluate_abdominal_curl.Size = new System.Drawing.Size(51, 20);
+            this.label_evaluate_abdominal_curl.Size = new System.Drawing.Size(50, 21);
             this.label_evaluate_abdominal_curl.TabIndex = 35;
             this.label_evaluate_abdominal_curl.Text = "优秀";
             // 
@@ -365,11 +371,11 @@
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("楷体", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label10.Location = new System.Drawing.Point(173, 656);
+            this.label10.Font = new System.Drawing.Font("等线", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label10.Location = new System.Drawing.Point(64, 633);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(102, 22);
+            this.label10.Size = new System.Drawing.Size(102, 24);
             this.label10.TabIndex = 45;
             this.label10.Text = "测评结果";
             this.label10.Click += new System.EventHandler(this.label10_Click_1);
@@ -378,11 +384,11 @@
             // 
             this.label_evaluate_evaluation_results.AutoSize = true;
             this.label_evaluate_evaluation_results.BackColor = System.Drawing.Color.Transparent;
-            this.label_evaluate_evaluation_results.Font = new System.Drawing.Font("楷体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_evaluate_evaluation_results.Location = new System.Drawing.Point(594, 660);
+            this.label_evaluate_evaluation_results.Font = new System.Drawing.Font("等线", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_evaluate_evaluation_results.Location = new System.Drawing.Point(420, 636);
             this.label_evaluate_evaluation_results.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_evaluate_evaluation_results.Name = "label_evaluate_evaluation_results";
-            this.label_evaluate_evaluation_results.Size = new System.Drawing.Size(51, 20);
+            this.label_evaluate_evaluation_results.Size = new System.Drawing.Size(50, 21);
             this.label_evaluate_evaluation_results.TabIndex = 46;
             this.label_evaluate_evaluation_results.Text = "良好";
             // 
@@ -391,7 +397,7 @@
             this.label_score_evaluation_results.AutoSize = true;
             this.label_score_evaluation_results.BackColor = System.Drawing.Color.Transparent;
             this.label_score_evaluation_results.Font = new System.Drawing.Font("等线", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_score_evaluation_results.Location = new System.Drawing.Point(418, 661);
+            this.label_score_evaluation_results.Location = new System.Drawing.Point(267, 635);
             this.label_score_evaluation_results.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_score_evaluation_results.Name = "label_score_evaluation_results";
             this.label_score_evaluation_results.Size = new System.Drawing.Size(47, 21);
@@ -415,7 +421,7 @@
             this.label_score_abdominal_curl.AutoSize = true;
             this.label_score_abdominal_curl.BackColor = System.Drawing.Color.Transparent;
             this.label_score_abdominal_curl.Font = new System.Drawing.Font("等线", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_score_abdominal_curl.Location = new System.Drawing.Point(425, 574);
+            this.label_score_abdominal_curl.Location = new System.Drawing.Point(274, 548);
             this.label_score_abdominal_curl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_score_abdominal_curl.Name = "label_score_abdominal_curl";
             this.label_score_abdominal_curl.Size = new System.Drawing.Size(32, 21);
@@ -427,7 +433,7 @@
             this.label_score_three_dimensional_flexion.AutoSize = true;
             this.label_score_three_dimensional_flexion.BackColor = System.Drawing.Color.Transparent;
             this.label_score_three_dimensional_flexion.Font = new System.Drawing.Font("等线", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_score_three_dimensional_flexion.Location = new System.Drawing.Point(425, 536);
+            this.label_score_three_dimensional_flexion.Location = new System.Drawing.Point(274, 510);
             this.label_score_three_dimensional_flexion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_score_three_dimensional_flexion.Name = "label_score_three_dimensional_flexion";
             this.label_score_three_dimensional_flexion.Size = new System.Drawing.Size(32, 21);
@@ -439,7 +445,7 @@
             this.label_score_endurance_run.AutoSize = true;
             this.label_score_endurance_run.BackColor = System.Drawing.Color.Transparent;
             this.label_score_endurance_run.Font = new System.Drawing.Font("等线", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_score_endurance_run.Location = new System.Drawing.Point(425, 498);
+            this.label_score_endurance_run.Location = new System.Drawing.Point(274, 472);
             this.label_score_endurance_run.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_score_endurance_run.Name = "label_score_endurance_run";
             this.label_score_endurance_run.Size = new System.Drawing.Size(32, 21);
@@ -451,7 +457,7 @@
             this.label_score_standing_long_jump.AutoSize = true;
             this.label_score_standing_long_jump.BackColor = System.Drawing.Color.Transparent;
             this.label_score_standing_long_jump.Font = new System.Drawing.Font("等线", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_score_standing_long_jump.Location = new System.Drawing.Point(425, 460);
+            this.label_score_standing_long_jump.Location = new System.Drawing.Point(274, 434);
             this.label_score_standing_long_jump.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_score_standing_long_jump.Name = "label_score_standing_long_jump";
             this.label_score_standing_long_jump.Size = new System.Drawing.Size(32, 21);
@@ -463,7 +469,7 @@
             this.label_score_vital_capacity.AutoSize = true;
             this.label_score_vital_capacity.BackColor = System.Drawing.Color.Transparent;
             this.label_score_vital_capacity.Font = new System.Drawing.Font("等线", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_score_vital_capacity.Location = new System.Drawing.Point(425, 417);
+            this.label_score_vital_capacity.Location = new System.Drawing.Point(274, 391);
             this.label_score_vital_capacity.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_score_vital_capacity.Name = "label_score_vital_capacity";
             this.label_score_vital_capacity.Size = new System.Drawing.Size(32, 21);
@@ -475,7 +481,7 @@
             this.label_score_50m.AutoSize = true;
             this.label_score_50m.BackColor = System.Drawing.Color.Transparent;
             this.label_score_50m.Font = new System.Drawing.Font("等线", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_score_50m.Location = new System.Drawing.Point(425, 378);
+            this.label_score_50m.Location = new System.Drawing.Point(274, 352);
             this.label_score_50m.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_score_50m.Name = "label_score_50m";
             this.label_score_50m.Size = new System.Drawing.Size(32, 21);
@@ -487,7 +493,7 @@
             this.label_score_bmi.AutoSize = true;
             this.label_score_bmi.BackColor = System.Drawing.Color.Transparent;
             this.label_score_bmi.Font = new System.Drawing.Font("等线", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_score_bmi.Location = new System.Drawing.Point(425, 338);
+            this.label_score_bmi.Location = new System.Drawing.Point(274, 312);
             this.label_score_bmi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_score_bmi.Name = "label_score_bmi";
             this.label_score_bmi.Size = new System.Drawing.Size(32, 21);
@@ -499,11 +505,11 @@
             // 
             this.label36.AutoSize = true;
             this.label36.BackColor = System.Drawing.Color.Transparent;
-            this.label36.Font = new System.Drawing.Font("楷体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label36.Location = new System.Drawing.Point(414, 298);
+            this.label36.Font = new System.Drawing.Font("等线", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label36.Location = new System.Drawing.Point(263, 272);
             this.label36.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(51, 20);
+            this.label36.Size = new System.Drawing.Size(50, 21);
             this.label36.TabIndex = 47;
             this.label36.Text = "分值";
             // 
@@ -512,7 +518,7 @@
             this.button_back.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button_back.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button_back.Font = new System.Drawing.Font("楷体", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button_back.Location = new System.Drawing.Point(517, 733);
+            this.button_back.Location = new System.Drawing.Point(776, 792);
             this.button_back.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button_back.Name = "button_back";
             this.button_back.Size = new System.Drawing.Size(143, 58);
@@ -525,8 +531,8 @@
             // 
             this.button1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button1.Font = new System.Drawing.Font("楷体", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button1.Location = new System.Drawing.Point(150, 733);
+            this.button1.Font = new System.Drawing.Font("楷体", 16.2F, System.Drawing.FontStyle.Bold);
+            this.button1.Location = new System.Drawing.Point(177, 792);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(154, 58);
@@ -540,11 +546,43 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("楷体", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(184, 111);
+            this.label2.Location = new System.Drawing.Point(270, 56);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(461, 48);
             this.label2.TabIndex = 59;
             this.label2.Text = "大学生体质测评结果";
+            // 
+            // chart1
+            // 
+            this.chart1.BackColor = System.Drawing.Color.Transparent;
+            this.chart1.BorderlineColor = System.Drawing.Color.Transparent;
+            this.chart1.BorderlineWidth = 2;
+            chartArea1.AxisX.StripLines.Add(stripLine1);
+            chartArea1.AxisX.Title = "成绩";
+            chartArea1.AxisY.LogarithmBase = 100D;
+            chartArea1.AxisY.ScrollBar.Size = 6D;
+            chartArea1.AxisY.Title = "项目";
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            legend1.TitleBackColor = System.Drawing.Color.Transparent;
+            this.chart1.Legends.Add(legend1);
+            this.chart1.Location = new System.Drawing.Point(527, 195);
+            this.chart1.Name = "chart1";
+            this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Polar;
+            series1.Legend = "Legend1";
+            series1.LegendText = "体测成绩";
+            series1.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Triangle;
+            series1.Name = "体测成绩";
+            series1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
+            series1.YValuesPerPoint = 2;
+            this.chart1.Series.Add(series1);
+            this.chart1.Size = new System.Drawing.Size(600, 520);
+            this.chart1.TabIndex = 60;
+            this.chart1.Text = "chart1";
+            this.chart1.Click += new System.EventHandler(this.chart1_Click);
             // 
             // Form3
             // 
@@ -554,7 +592,8 @@
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(865, 941);
+            this.ClientSize = new System.Drawing.Size(1150, 941);
+            this.Controls.Add(this.chart1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button_back);
@@ -604,6 +643,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "大学生体质测评系统";
             this.Load += new System.EventHandler(this.Form3_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -650,5 +690,6 @@
         private System.Windows.Forms.Button button_back;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
     }
 }

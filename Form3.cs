@@ -17,6 +17,19 @@ namespace 大学生体质测评系统
             this.SetStyle(ControlStyles.DoubleBuffer | ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint, true);
             InitializeComponent();
             _form2 = form2;
+          // Series series = new Series();
+             int[] yValues = { 65, 75, 60, 34, 85, 55, 63 };
+             if(Form1_essential_information.student.gender.Equals("男")){
+                 string[] xValues = { "身高体重", "50m", "肺活量", "立定跳远", "1000m", "坐位体前屈", "引体向上" };
+                 chart1.Series[0].Points.DataBindXY(xValues, yValues);
+             }else{
+                 string[] xValues = { "身高体重", "50m", "肺活量", "立定跳远", "800m", "坐位体前屈", "仰卧起坐" };
+               
+                 chart1.Series[0].Points.DataBindXY(xValues, yValues);
+             }
+            //series.Points.DataBindXY(table.DefaultView, “参数”, table.DefaultView, “数值”);
+            
+            
         }
 
         private void label10_Click(object sender, EventArgs e)
@@ -92,6 +105,11 @@ namespace 大学生体质测评系统
             Form1_essential_information form1 = new Form1_essential_information();
             form1.Show();
             this.Close();
+        }
+
+        private void chart1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
